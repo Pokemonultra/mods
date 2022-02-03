@@ -37,6 +37,7 @@ module.exports = {
   init: async function (DBS) {
     DBS.BetterMods.requireModule("discord-together");
     console.log("Loaded DiscordToGether Mod ~ aoe#9214");
+    process.send("[DiscordToGether] Loaded Mod ~ aoe#9214");
   },
   mod: async function (DBS, message, action, args, command, index) {
     const { DiscordTogether } = require("discord-together");
